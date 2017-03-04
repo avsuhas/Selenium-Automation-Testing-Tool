@@ -6,13 +6,11 @@ public class testdec1 {
 	
 	public static void main(String[] args){
 		
-	 System.setProperty("webdriver.gecko.Driver","G:\\Downloads\geckodriver-v0.14.0-win64\\geckodriver.exe");
+	 System.setProperty("webdriver.gecko.Driver","G:\\Downloads\\geckodriver-v0.14.0-win64\\geckodriver.exe");
 	
 	 FirefoxDriver Driver = new FirefoxDriver();
 	
 	Driver.get("https://accounts.google.com");
-	Driver.getTitle();
-	
 	Driver.manage().window().maximize();
 	
 	Driver.findElement(By.id("Email")).clear();
