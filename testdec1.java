@@ -1,7 +1,7 @@
-/* Name : Suhas Vijaykumar Arudi
-   Assignment 2 : Script for Gmail Login
-   Batch 1 : Mentor- Madhumitha 
-   Co-ordinator : Praveen
+/*
+
+Script for Gmail Login
+
 */
 
 
